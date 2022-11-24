@@ -1,0 +1,30 @@
+.bullet__item,
+.bullet__item--image
+{
+   
+    width: 80px;
+    margin-right: 15px;
+    height: 600px;
+    max-height: 600px;
+    max-width: "auto";
+}
+
+.bullet__item--title{
+    text-decoration: none;
+    text-align: center;
+}
+
+.bullet__item--image{
+    width: 600px;
+}
+
+.bullet__item--link{
+    color: black;
+}
+
+@media screen and (min-width: 760px){
+    .bullet__item
+    .bullet__item--image{
+        width: 100px;
+    }
+}
